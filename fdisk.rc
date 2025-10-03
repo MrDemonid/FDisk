@@ -1,0 +1,58 @@
+#include <windows.h>
+
+// -----------------------------
+// Иконка приложения
+// -----------------------------
+IDI_ICON1 ICON ".\icons\fdisk64x64.ico"
+
+// -----------------------------
+// Версионная информация
+// -----------------------------
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,0
+ PRODUCTVERSION 1,0,0,0
+ FILEFLAGSMASK 0x3fL
+ FILEFLAGS 0x0L
+ FILEOS 0x40004L     // VOS_NT_WINDOWS32
+ FILETYPE 0x1L       // VFT_APP (приложение)
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        // Английский (США), ANSI (1252)
+        BLOCK "040904E4"
+        BEGIN
+            VALUE "CompanyName",      "Zagoskino Corp\0"
+            VALUE "FileDescription",  "FDisk Utility\0"
+            VALUE "FileVersion",      "1.0.0.0\0"
+            VALUE "InternalName",     "FDisk.exe\0"
+            VALUE "OriginalFilename", "FDisk.exe\0"
+            VALUE "ProductName",      "FDisk Partition Tool\0"
+            VALUE "ProductVersion",   "1.0.0.0\0"
+        END
+
+        // Русский (Россия), ANSI (1251)
+        BLOCK "041904E3"
+        BEGIN
+            VALUE "CompanyName",      "Zagoskino Corp\0"
+            VALUE "FileDescription",  "Утилита FDisk\0"
+            VALUE "FileVersion",      "1.0.0.0\0"
+            VALUE "InternalName",     "FDisk.exe\0"
+            VALUE "OriginalFilename", "FDisk.exe\0"
+            VALUE "ProductName",      "Инструмент FDisk\0"
+            VALUE "ProductVersion",   "1.0.0.0\0"
+        END
+    END
+
+    BLOCK "VarFileInfo"
+    BEGIN
+        // Translation: (langID, codepage)
+        VALUE "Translation", 0x0409, 1252,  // English (US), ANSI
+                             0x0419, 1251   // Russian, ANSI
+    END
+END
+
+// -----------------------------
+// Манифест
+// -----------------------------
+1 RT_MANIFEST "fdisk.manifest"

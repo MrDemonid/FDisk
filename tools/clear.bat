@@ -1,0 +1,10 @@
+del .\nls\deflang.c
+del .\nls\en.txt
+del .\nls\de.txt
+del .\nls\es.txt
+del .\nls\fr.txt
+del .\nls\it.txt
+del .\nls\pl.txt
+del .\nls\tr.txt
+del .\nls\ru.txt
+del .\nls\out.lng

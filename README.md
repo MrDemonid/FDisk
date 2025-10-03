@@ -2,7 +2,7 @@
 
 [![License: GPL v2+](https://img.shields.io/badge/License-GPLv2+-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)  
 [![Windows Compatible](https://img.shields.io/badge/Platform-Windows-lightgrey.svg)](https://www.microsoft.com)  
-[![Releases](https://img.shields.io/github/v/release/MrDemonid/fdisk-windows)](https://github.com/MrDemonid/FDisk/releases/tag/v1.0.0)
+[![Releases](https://img.shields.io/github/v/release/MrDemonid/FDisk)](https://github.com/MrDemonid/FDisk/releases/latest)
 
 > **Windows Fork:** This version is a modification of the original Free FDISK project, adapted to run on modern Windows systems. All original functionality is preserved where possible.
 
@@ -64,7 +64,7 @@ The author of the original software and the author of this Windows fork assume n
 
 ## Releases
 
-Download precompiled binaries for Windows from the [Releases page](https://github.com/MrDemonid/FDisk/releases/tag/v1.0.0)
+Download precompiled binaries for Windows from the [Releases page](https://github.com/MrDemonid/FDisk/releases/latest)
 
 
 ## Further Documentation
